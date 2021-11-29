@@ -20,7 +20,9 @@ A Path finding algorithm has been proposed for grid-based graph, that finds the 
 
 This is an extension to the A* in general where I had explained about the basics of A* and the skeletal algorithm which is common for all implementations. Introduction Here we’ll be learning about the implementation of the A* algorithm that we have learnt so far on pathfinding on a 2D grid. I’ll be explaining with 4 way movement i.e. the object can move 4 ways, up, down, left and right as it’s exactly same as the 8 way movement i.e. 4 way movement plus the diagonal movement. Prerequisites   
 The basic knowledge of A* algorithm is required which can be found in my earlier tutorial here as I’m not going to explain all the variables F score, G score, H score etc here.  Working Let’s work on this in the order of the previous article. So first of all we need to decide what all information is needed to be kept in the node. 
-▪ We need the x,y coordinates as column and row information within the nodes. ▪ We need the individual f,g and h scores to be stored in the nodes. ▪ We need a pointer that points to the parent. 
+- We need the x,y coordinates as column and row information within the nodes.
+- We need the individual f,g and h scores to be stored in the nodes.
+- We need a pointer that points to the parent. 
 This is the basic information required to be stored in the node, of course more stuff can be added as per the requirements of the pathfinding problem. 
 
 ## CONCLUSION:
